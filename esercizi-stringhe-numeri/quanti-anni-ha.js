@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var years = 2020;
+var birth = 2005;
+var coeff = 100;
+
+var yo = years-birth;
+var rt100 = coeff-yo;
+
+console.log(rt100);

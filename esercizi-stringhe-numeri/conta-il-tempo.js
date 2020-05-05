@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+let time = 8625;
+let coeff = 60;
+let coeff2 = 3600;
+let hours = Math.floor(time/coeff2);
+let min = Math.floor((time-(hours*coeff2))/coeff);
+let sec = Math.floor(time-(hours*coeff2)-(min*coeff));
+console.log(`${hours} ore, ${min} minuti, ${sec} secondi`);
