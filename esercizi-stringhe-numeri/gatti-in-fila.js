@@ -21,6 +21,5 @@
 var cats = 23;
 var catsrow = 8;
 var nrow = Math.ceil(cats/catsrow);
-console.log(nrow);
 var freespace = nrow*catsrow-cats;
-console.log(freespace);
+console.log(`${cats} gatti si unirono in fila per ${catsrow}, si accorsero che mancavano ${freespace} gatti per completare la fila`);
