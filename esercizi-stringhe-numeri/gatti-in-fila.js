@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var catsrow = 44/6;
+console.log(Math.ceil(catsrow));
+var freespace = 8*6-44;
+console.log(freespace);
