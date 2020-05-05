@@ -18,8 +18,9 @@
   http://www.imparareaprogrammare.it
 */
 
-var cats = 44;
-var catsrow = 44/6;
-console.log(Math.ceil(catsrow));
-var freespace = 8*6-44;
+var cats = 23;
+var catsrow = 8;
+var nrow = Math.ceil(cats/catsrow);
+console.log(nrow);
+var freespace = nrow*catsrow-cats;
 console.log(freespace);
